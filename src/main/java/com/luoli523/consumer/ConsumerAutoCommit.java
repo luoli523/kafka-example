@@ -4,15 +4,13 @@ package com.luoli523.consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.common.protocol.types.Field;
 
-import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
 // This example demonstrates a simple usage of Kafka's consumer api
 // that relies on automatic offset committing.
-public class ConsumerExample1 {
+public class ConsumerAutoCommit {
 
   public static void main(String[] args) {
     Properties props = new Properties();
