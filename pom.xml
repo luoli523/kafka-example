@@ -35,7 +35,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>com.luoli523.ProducerExample1</mainClass>
+              <mainClass>com.luoli523.producer.ProducerExample1</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -65,6 +65,14 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
       </plugin>
 
     </plugins>

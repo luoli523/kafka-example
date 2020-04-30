@@ -1,4 +1,4 @@
-package com.luoli523;
+package com.luoli523.producer;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
